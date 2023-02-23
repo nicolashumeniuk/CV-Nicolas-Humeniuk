@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* SECCIÓN INICIO */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("Imágenes/hero3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+/* Side menu */
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #00569D;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: #00569D;
+    color: #fff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 120px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00569D;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 250px;
+    border-radius: 50%;
+    border: 5px;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+}
+/*estilos grales*/
+.titulo-seccion{
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+/* SECCION SOBRE MI */
+.sobremi{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+    color: #252525;
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobremi .contenido-seccion .especial{
+    color: #00569D;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: #252525;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila .col i{
+    color: #00569D;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #00569D;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+/* SECCION EDUCACIÓN */
+.educacion{
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.7)),
+    url("Imágenes/aula.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+}
+.educacion{
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.educacion .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.educacion .contenido-seccion h2{
+    text-align: center;
+}
+.educacion .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.educacion .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.educacion .contenido-seccion .info .col{
+    width: 45%;
+}
+.educacion .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: #00569D;
+    font-weight: bold;
+    border: 2px solid #00569D;
+    padding: 10px;
+}
+.educacion .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.educacion .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #fff;
+}
+.educacion .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.educacion .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.educacion .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+.educacion .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+}
+/* SECCION HABILIDADES */
+
+.habilidades{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+    color: #252525;
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.habilidades .contenido-seccion h2{
+    text-align: center;
+}
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.habilidades .contenido-seccion .fila .col{
+    width: 30%;
+    align-items: center;
+}
+.habilidades .contenido-seccion .fila .col .foto{
+    text-align: center;
+}
+.habilidades .contenido-seccion .fila .col img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    line-height: 40px;
+    border-radius: 25%;
+}
+.habilidades .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+/* SECCION CONTACTO */
+.contacto{
+    background-color: #e6e6e6;
+    padding: 10px 0 40px 0;
+    color: #252525;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    border-top: 1px solid #252525;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+    width: 30%;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #00569D;
+}
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    } 
+    .educacion .contenido-seccion .info{
+        display: block;
+    }
+    .educacion .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .educacion .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .educacion .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+    .contacto .contenido-seccion .fila .col{
+        width: auto;
+    }
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: auto;
+    }
+}
